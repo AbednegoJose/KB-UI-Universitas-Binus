@@ -1,10 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AboutUs">
+    android:background="@android:color/black"
+    android:gravity="start"
+    tools:context=".MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="617dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="start"
+        android:text="About Us"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="504dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="start"
+        android:text="Programs"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="448dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="start"
+        android:text="Research and Publication"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="393dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="start"
+        android:text="Multi-Campus"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="337dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="start"
+        android:text="Admissions"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="278dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="start"
+        android:text="Scholarship"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="560dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="start"
+        android:text="WHY BINUS?"
+        android:textColor="#000000" />
+
+</RelativeLayout>

@@ -271,7 +271,8 @@
                             android:layout_marginTop="8dp"
                             android:background="#2AAAC7"
                             android:text="Mahasiswa"
-                            android:textColor="#FFFFFF" />
+                            android:textColor="#FFFFFF"
+                            android:onClick="Pendaftaran"/>
 
                         <Button
                             android:id="@+id/button17"
@@ -341,7 +342,8 @@
                             android:fontFamily="@font/actor"
                             android:gravity="center|start"
                             android:text="Solusi Pendidikan untuk Masa Depan, Binus @Bekasi Hadirkan Program Praktis untuk Gen Z 30 May 2024"
-                            android:textColor="#FFFFFF" />
+                            android:textColor="#FFFFFF"
+                            android:onClick="News"/>
 
                         <Button
                             android:id="@+id/button21"

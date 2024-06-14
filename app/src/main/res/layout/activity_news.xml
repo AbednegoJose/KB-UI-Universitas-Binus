@@ -1,10 +1,206 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".News">
+    tools:context=".MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="115dp"
+                android:layout_height="106dp"
+                android:background="@drawable/logobinus"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="160dp"
+                android:fontFamily="@font/actor"
+                android:text="News"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="208dp"
+                android:fontFamily="@font/actor"
+                android:text="Solusi Pendidikan untuk Masa Depan, Binus @Bekasi Hadirkan Program Praktis untuk Gen Z"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/actor"
+                android:text="Solusi Pendidikan untuk Masa Depan, Binus @Bekasi Hadirkan Program Praktis untuk Gen Z"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/actor"
+                android:text="News"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/berita1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/actor"
+                android:text="Bekasi, 29 Mei 2024 – Data Badan Pusat Statistik (BPS) pada Agustus 2023, mencatat ada sebanyak 9,9 juta anak muda Indonesia berusia 15 hingga 24 tahun atau Gen Z yang tidak bekerja atau bahkan mendapatkan pelatihan. Berdasarkan data tersebut, sekitar 9,9 juta Gen Z di Indonesia saat ini menganggur dan tidak sedang mengejar pendidikan formal. Angka ini menunjukkan tantangan serius dalam penyerapan tenaga kerja dan ketidaksesuaian antara keterampilan yang dimiliki pencari kerja dengan kebutuhan pasar. Dengan adanya program ini menjadikan BINUS sebagai institusi pendidikan yang mendukung pengembangan teknologi dan inovasi, harapannya adalah generasi muda Indonesia mampu bersaing dalam era digital. Kurikulum yang adaptif dan fasilitas pendidikan yang memadai akan mendorong para siswa untuk berinovasi dan berkreasi, menciptakan solusi-solusi baru bagi tantangan global."
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/berita2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                android:layout_marginTop="72dp"
+                android:fontFamily="@font/actor"
+                android:text="BINUS UNIVERSITY"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/textView20"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/actor"
+                android:text="BINUS HIGHER EDUCATION"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView21"
+                android:layout_marginTop="9dp"
+                android:fontFamily="@font/actor"
+                android:gravity="clip_vertical"
+                android:text="Location"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView22"
+                android:layout_marginTop="-19dp"
+                android:fontFamily="@font/actor"
+                android:gravity="clip_vertical"
+                android:text="Jl. K.H. Syahdan No.9, Kemanggisan, Palmerah, Jakarta 11480 Indonesia"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView26"
+                android:layout_marginTop="9dp"
+                android:fontFamily="@font/actor"
+                android:gravity="clip_vertical"
+                android:text="Contact Us"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView23"
+                android:layout_marginTop="-19dp"
+                android:fontFamily="@font/actor"
+                android:gravity="clip_vertical"
+                android:text="Phone +62 21 534 5830, +62 21 535 0660 Fax +62 21 530 0244"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

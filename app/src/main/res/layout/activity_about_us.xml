@@ -11,13 +11,14 @@
 
 
     <Button
-        android:layout_width="369dp"
+        android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="617dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="441dp"
         android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/actor"
         android:gravity="start"
         android:text="About Us"
         android:textColor="#000000" />
@@ -27,9 +28,37 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="504dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="502dp"
         android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/actor"
+        android:gravity="start"
+        android:onClick="ContactUs"
+        android:text="Contact Us"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="381dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/actor"
+        android:gravity="start"
+        android:text="Why Binus?"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="315dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/actor"
         android:gravity="start"
         android:text="Programs"
         android:textColor="#000000" />
@@ -39,9 +68,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="448dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="256dp"
         android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/actor"
         android:gravity="start"
         android:text="Research and Publication"
         android:textColor="#000000" />
@@ -51,9 +81,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="393dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="195dp"
         android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/actor"
         android:gravity="start"
         android:text="Multi-Campus"
         android:textColor="#000000" />
@@ -63,9 +94,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="337dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="128dp"
         android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/actor"
         android:gravity="start"
         android:text="Admissions"
         android:textColor="#000000" />
@@ -75,23 +107,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="278dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="69dp"
         android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/actor"
         android:gravity="start"
         android:text="Scholarship"
-        android:textColor="#000000" />
-
-    <Button
-        android:layout_width="369dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="560dp"
-        android:backgroundTint="#FFFFFF"
-        android:gravity="start"
-        android:text="WHY BINUS?"
         android:textColor="#000000" />
 
 </RelativeLayout>

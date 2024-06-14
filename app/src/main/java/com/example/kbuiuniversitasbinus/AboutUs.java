@@ -1,6 +1,8 @@
 package com.example.kbuiuniversitasbinus;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,10 @@ public class AboutUs extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void ContactUs(View view) {
+        Intent intent = new Intent(AboutUs.this, ContactUs.class);
+        startActivity(intent);
     }
 }
